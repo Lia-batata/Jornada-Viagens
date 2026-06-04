@@ -6,3 +6,48 @@
     padding: 0;
     margin-bottom: 24px;
 }
+.destinations .item.tokyo{
+    background: url(../img/tokyo-tablet-desk.jpg) no-repeat;
+    background-size: cover;
+}
+
+.destinations .item.osaka{
+    background: url(../img/osaka-tablet-desk.jpg) no-repeat;
+    background-size: cover;
+}
+
+@media screen and (min-width: 768px) {
+    .destinations-item {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .card {
+        width: 420px;
+        height: 308px;
+    }
+
+    .card header h3 {
+        font-size: 48px;
+    }
+
+    .card header span {
+        font-size: 40px;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .card {
+        width: 588px;
+    }
+}
+
+@media screen and (min-width: 1920px) {
+   .offers-cards {
+        width: 1250px;
+        margin: 0 auto;
+    }
+}
