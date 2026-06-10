@@ -20,15 +20,6 @@
     text-align: center;
 }
 
-.offers-cards .card header {
-    display: block;
-    background-color: transparent;
-    padding: 24px 16px;
-    position: static;
-    padding: 0;
-    margin-bottom: 24px;
-}
-
 .offers-cards .card header p {
     font-size: 20px;
     font-weight: var(--text-weight);
