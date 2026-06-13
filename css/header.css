@@ -22,7 +22,8 @@
     display: none;
 }
 .navigation-menu {
-    margin: 24px 0 0 0;
+    margin: 300px;
+    margin-top: 24px;
 }
 
 input[type="checkbox"]:checked ~ nav {
@@ -53,7 +54,18 @@ nav {
     font-size: 24px;
 }
 
+.list-links li a.active {
+    text-decoration: underline;
+}
+
 @media screen and (min-width: 768px) {
+    .main-header{
+        padding: 38px 60px;
+    }
+    .navigation-menu {
+    margin: 10px;
+    margin-top: 24px;
+    }
     .navigation-menu label{
         display: none;
     }
@@ -63,8 +75,6 @@ nav {
     .navigation-menu ul{
     display: flex;
     align-items: center;
-    gap: 32px;
-    padding: 24px;
     }
     .navigation-menu li {
     margin: 0;
